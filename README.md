@@ -1,6 +1,6 @@
 [![tag:?](https://img.shields.io/github/tag/stevetarver/excel-as-json.svg)](https://github.com/stevetarver/excel-as-json/releases)
 [![license:mit](https://img.shields.io/badge/license-mit-green.svg)](#license)
-[![build:?](https://img.shields.io/travis/stevetarver/excel-as-json/master.svg)](https://travis-ci.org/stevetarver/excel-as-json)
+[![build:?](https://img.shields.io/travis/stevetarver/excel-as-json/master.svg)](https://travis-ci.org/adil-ahorger/excel-as-json)
 [![coverage:?](https://img.shields.io/coveralls/stevetarver/excel-as-json/master.svg?style=flat-square)](https://coveralls.io/r/stevetarver/excel-as-json)
 [![codecov.io](http://codecov.io/github/stevetarver/excel-as-json/coverage.svg?branch=master)](http://codecov.io/github/stevetarver/excel-as-json?branch=master)
 <br>
