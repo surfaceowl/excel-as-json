@@ -1,6 +1,5 @@
 .idea
 .gitignore
-src
 build
 coverage
 data
