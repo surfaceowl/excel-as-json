@@ -12,7 +12,7 @@
     "dist": "tools/dist.sh",
     "codecov": "cat ./coverage/lcov.info | ./node_modules/.bin/codecov",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "prepare": "tools/build.sh"
+    "postinstall": "coffee -c -o lib/ src/"
   },
   "repository": {
     "type": "git",
@@ -28,13 +28,13 @@
   },
   "homepage": "https://github.com/stevetarver/excel-as-json",
   "dependencies": {
-    "excel": "1.0.1"
+    "excel": "1.0.1",
+    "coffeescript": "2.2.4"
   },
   "devDependencies": {
     "chai": "4.1.2",
     "codecov.io": "0.1.6",
     "coffee-coverage": "3.0.0",
-    "coffeescript": "2.2.4",
     "coveralls": "3.0.0",
     "istanbul": "0.4.5",
     "mocha": "5.1.0"
