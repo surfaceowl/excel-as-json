@@ -18,7 +18,7 @@
 #
 fs = require 'fs'
 path = require 'path'
-excel = require 'excel'
+excel = require './excelParser'
 
 BOOLTEXT = ['true', 'false']
 BOOLVALS = {'true': true, 'false': false}
