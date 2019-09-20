@@ -22,7 +22,7 @@ all methods are exported for other uses.
 
 ## Install
 
-```$ npm install excel-as-json --save-dev```
+```$ npm install git://github.com/adil-ahorger/excel-as-json.git```
 
 ## Use
 
@@ -358,6 +358,11 @@ You are always free to fork this repo and create your own version to do with as 
 
 ## Change History
 
+### 2.0.3
+
+- Added old version of Excel.js to package to avoid significant rewrites, and updated `libxmljs` version.
+- Included `src` directory, and changed `prepublish` script to `postinstall` to allow installs to work directly from github.
+
 ### 2.0.2
 
 - Fix #23 Embedded arrays contain empty string. Flaw in code inserted empty string when no text values were provided for a key like `aliases[]`.
@@ -365,6 +370,7 @@ You are always free to fork this repo and create your own version to do with as 
 
 
 ### 2.0.1
+
 - Fix creating missing destination directories to complete prior to writing file
 
 
