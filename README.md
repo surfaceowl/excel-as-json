@@ -357,6 +357,9 @@ You are always free to fork this repo and create your own version to do with as 
 
 
 ## Change History
+### 2.0.4
+
+- Changed default branch from `master` to `main` to eliminate references to slavery and respect BlackLivesMatter.
 
 ### 2.0.3
 
