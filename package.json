@@ -32,7 +32,7 @@
     "excel": "~1.0.1",
     "libxmljs2": "~0.21.6",
     "node-promise": "~0.5.14",
-    "underscore": "~1.9.1",
+    "underscore": "~1.12.1",
     "unzip2": "~0.2.5"
   },
   "devDependencies": {
